@@ -26,7 +26,6 @@ const router = createBrowserRouter([
         path:'/register',
         element:<Register></Register>
 
-
       }
     ]
 
@@ -55,4 +54,4 @@ const router = createBrowserRouter([
     ]
   }
 ]);
-export default router
+export default router;

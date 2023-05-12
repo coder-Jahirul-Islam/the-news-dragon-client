@@ -1,9 +1,11 @@
 import React from 'react';
 import { Button, Container, Form, } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useTitle from '../../../hooks/useTitle';
 
 
 const Login = () => {
+    useTitle("Login")
     return (
         <Container className='w-25 mx-auto'>
             <h3>Please Login</h3>
